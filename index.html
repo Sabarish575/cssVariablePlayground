@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS PLAY</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="wrapper">
+        <label for="space">spacing:</label>
+        <input type="range"  min="10" max="200" data-sizings="px" name="space">
+        <label for="blur">Blur:</label>
+        <input type="range" name="blur" min="0" max="200" data-sizings="px">
+        <label for="color">color:</label>
+        <input type="color"  name="color">
+    </div>
+
+    <p id="scale"></p>
+    <p id="blur"></p>
+    <p id="color"></p>
+
+    <div class="boxCont">
+            <img src="static/mount.jpg">
+        
+    </div>
+</div>
+
+    
+    
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

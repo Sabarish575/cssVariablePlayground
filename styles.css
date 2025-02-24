@@ -1,0 +1,49 @@
+:root{
+    --space:10px;
+    --blur:5px;
+    --color:brown;
+}
+
+
+body{
+    background-color: black;
+
+
+    color: white;
+    font-family: monospace;
+    font-size: large;
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.boxCont {
+    position: relative;
+    background-color: var(--color);
+    width: 600px;
+    height: 400px;
+    overflow: hidden; /* Prevents overflow */
+    border-radius: 25px;
+}
+
+
+.boxCont img{
+    padding: var(--space);
+    width: 80%;
+    height: 70%;
+    object-fit: cover; /* Ensures the image covers the area properly */
+    border-radius: 12px;
+    filter: blur(var(--blur));
+}
+
+
+
+
+
