@@ -24,6 +24,9 @@ CSS Variable Playground is a simple interactive project that allows users to dyn
 2. Include `styles.css` and `index.js` in your project.
 3. Open `index.html` in a browser.
 
+![Alt Text](static/sample.png)
+
+
 ## Example Code
 ```js
 const inputs = document.querySelectorAll(".wrapper input");
